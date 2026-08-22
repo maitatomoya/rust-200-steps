@@ -27,7 +27,12 @@ cd rust-200-steps
 node server.js
 ```
 
-ブラウザで http://localhost:3939 を開く。
+起動するとターミナルにURLが表示されるので、ブラウザで開く（デフォルトは http://localhost:3939 ）。
+ポートは環境変数PORTで変更できる。
+
+```bash
+PORT=8080 node server.js
+```
 
 ローカル実行に切り替えたい場合はRustをインストールして再起動する：
 
